@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Chalet', sans-serif;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
