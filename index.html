@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Fco Gabriel Azevedo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- styles -->
@@ -20,12 +21,17 @@
         <div class="logo">
             <img src="./scr/images/logo-rockstar.svg" alt="logo da rockstar">
             <hr>
-            <img src="./scr/images/logo-gta.svg" alt="Logo do GTA 5" height="40">
+            <img src="./scr/images/logo-gta.svg" alt="Logo do GTA 5">
         </div>
-        <ul>
+        <ul class="menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#compre-ja"></a>Compre</li>
-            <li><a href="" target="_blank"></a>Suporte</li>
+            <li><a href="#compre-ja">Compre</a></li>
+            <li>
+                <a href="" target="_blank">
+                    Suporte
+                    <img src="./scr/images/icone-link.svg" alt="ícone de suporte">
+                </a>
+            </li>
         </ul>
     </header>
     <main class="home" id="home">
@@ -41,11 +47,12 @@
         </div>
     </main>
     <section class="compre-ja" id="comprar">
+        <h2 >Compre já</h2>
         <div class="card__container">
             <img src="./scr/images/gta5.jpg" alt="Capa do jogo GTA 5">
             
-            <div class="informacoes">
-                <h3>Grand Theft Auto</h3>
+            <div class="informacoes__container">
+                <h3>Grand Theft Auto V</h3>
                 <p>
                     Inclui <strong>modo história do GTA V</strong> e <strong>GTA Online</strong>
                 </p>
