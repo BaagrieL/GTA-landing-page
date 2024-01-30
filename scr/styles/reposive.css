@@ -1,0 +1,86 @@
+@media  screen and (max-width: 1024px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    .cabecalho {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+        gap: 1.6rem;
+    }
+
+    .cabecalho li a {
+        padding: 1.5rem;
+    }
+
+    .home .informacoes__container {
+        padding: 3rem;
+    }
+
+    .home .informacoes__container img {
+        max-width: 110px;
+    }
+
+    .compre-ja .card__container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .home .informacoes__container > h1 {
+        font-size: 3em;
+    }
+
+    .home .informacoes__container > h2 {
+        font-size: 1em;
+    }
+
+    .compre-ja .informacoes__container > h3 {
+        font-size: 3.5rem;
+    }
+
+    .compre-ja .informacoes__container li img {
+        width: 100%;
+    }
+
+    .compre-ja .card__container {
+        width: 90%;
+        padding: 1.2rem;
+        font-size: 1em;
+    }
+
+    .compre-ja .card__container > img {
+        width: 100%;
+    }
+
+    .btn-comprar {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    html{
+        font-size: 40%;
+    } 
+
+    .cabecalho {
+        padding: 6rem 0;
+    }
+
+    .cabecalho .logo {
+        width: 70%;
+    }
+
+    .cabecalho .logo img {
+        width: 90%;
+    }
+
+    .compre-ja { 
+        padding: 1rem;
+    }
+
+
+}
